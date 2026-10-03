@@ -4,7 +4,7 @@ storage:
   dataRoot: data
 category: automation
 name: Attento!
-version: "1.0.0"
+version: "1.1.0"
 tagline: Gli avvisi delle tue telecamere Tapo e Reolink, sul telefono
 icon: https://attento.online/assets/umbrel/icon.svg
 description: >-
@@ -12,6 +12,12 @@ description: >-
 
 
   Questa app è il programma di casa di Attento!, lo stesso che gira su Mac e Windows: a sorvegliare è Umbrel, e nessun computer deve restare acceso. Trova da solo le telecamere sulla rete di casa e tiene le loro password su Umbrel, cifrate con la sua chiave: non vanno mai al server di Attento!.
+
+
+  🖥️ LA CENTRALE
+
+
+  Apri Attento! da Umbrel su un computer, un tablet o la TV di casa: tutte le telecamere dal vivo, gli avvisi con il loro video e l'allarme, come nella Centrale del Mac. Con la Modalità TV, la telecamera che si muove va in primo piano.
 
 
   ⚠️ Serve un account Attento! (c'è il piano gratuito con una telecamera, su attento.online) e l'app Attento! sul telefono. Se Attento! è acceso anche su un Mac o un PC di casa, chiudilo prima di collegare Umbrel: due programmi di casa sulle stesse telecamere si disturbano.
@@ -27,7 +33,8 @@ description: >-
 
 
   - Per ogni telecamera trovata scrivi nome utente e password, tocca Salva, poi Prova collegamento.
-releaseNotes: ""
+releaseNotes: >-
+  Nuovo: la Centrale. Apri Attento! da Umbrel su un computer, un tablet o la TV di casa: tutte le telecamere dal vivo, gli avvisi e l'allarme, come nella Centrale del Mac. Con la Modalità TV, la telecamera che si muove va in primo piano.
 developer: Cobalt Studio
 website: https://attento.online
 dependencies: []
@@ -35,6 +42,7 @@ repo: ""
 support: https://attento.online/#domande
 port: 3497
 gallery:
+  - https://attento.online/assets/umbrel/centrale.jpg
   - https://attento.online/assets/umbrel/1.jpg
   - https://attento.online/assets/umbrel/2.jpg
   - https://attento.online/assets/umbrel/3.jpg
