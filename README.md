@@ -24,7 +24,7 @@ di casa (dietro il login di Umbrel).
 Se Attento! è acceso anche su un Mac o un PC di casa, chiudilo prima di collegare
 Umbrel: due programmi di casa sulle stesse telecamere si disturbano.
 
-Assistenza: assistenza@attento.online.
+Assistenza: help@cobaltstudio.app.
 
 ## English
 
