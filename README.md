@@ -17,6 +17,10 @@ Poi apri Attento! da Umbrel: ti chiede il codice di 6 caratteri che il telefono
 ti dà in Attento! → Impostazioni → Collega un computer → Mostra codice per il
 computer. Serve un account Attento! (c'è il piano gratuito con una telecamera).
 
+Una volta collegato, Attento! su Umbrel apre la **Centrale**: tutte le
+telecamere dal vivo, gli avvisi e l'allarme, da un computer, un tablet o la TV
+di casa (dietro il login di Umbrel).
+
 Se Attento! è acceso anche su un Mac o un PC di casa, chiudilo prima di collegare
 Umbrel: due programmi di casa sulle stesse telecamere si disturbano.
 
@@ -28,3 +32,5 @@ Cobalt Studio's community app store for Umbrel. Add
 `https://github.com/claudiosperindio-sketch/umbrel-app-store` in Umbrel → App Store →
 Community App Stores, then install **Attento!**, the home program of the Attento!
 camera alerts service (Italian; needs an Attento! account, free plan available).
+Once linked, it opens the Centrale: every camera live, the alerts and the alarm,
+from any browser in the house, behind Umbrel's login.
