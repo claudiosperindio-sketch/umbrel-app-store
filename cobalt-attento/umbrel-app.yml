@@ -4,7 +4,7 @@ storage:
   dataRoot: data
 category: automation
 name: Attento!
-version: "1.1.0"
+version: "1.1.1"
 tagline: Gli avvisi delle tue telecamere Tapo e Reolink, sul telefono
 icon: https://attento.online/assets/umbrel/icon.svg
 description: >-
@@ -34,7 +34,7 @@ description: >-
 
   - Per ogni telecamera trovata scrivi nome utente e password, tocca Salva, poi Prova collegamento.
 releaseNotes: >-
-  Nuovo: la Centrale. Apri Attento! da Umbrel su un computer, un tablet o la TV di casa: tutte le telecamere dal vivo, gli avvisi e l'allarme, come nella Centrale del Mac. Con la Modalità TV, la telecamera che si muove va in primo piano.
+  Le telecamere che si proteggono, come le Reolink: se dopo troppi accessi rifiutano per qualche minuto la password che avevano accettato, Attento! aspetta e riprova da solo invece di fermarsi con «password rifiutata», e il video riparte appena la telecamera la accetta di nuovo. Quando il video cade spesso, si ricollega più piano, per non farla bloccare. La pagina dice dove sono le password su Umbrel.
 developer: Cobalt Studio
 website: https://attento.online
 dependencies: []
