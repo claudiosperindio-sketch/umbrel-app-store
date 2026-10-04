@@ -4,7 +4,7 @@ Le app di [Cobalt Studio](https://cobaltstudio.app) per [Umbrel](https://umbrel.
 
 | App | Cosa fa |
 |---|---|
-| **Attento!** (`cobalt-attento`) | Il programma di casa di [Attento!](https://attento.online): sorveglia le telecamere Tapo e Reolink della rete di casa e manda gli avvisi sul telefono, con il video. Le password delle telecamere restano su Umbrel, cifrate. |
+| **Attento!** (`cobalt-attento`) | Il programma di casa di [Attento!](https://attento.online): sorveglia le telecamere ONVIF e RTSP della rete di casa (Tapo, Reolink, Hikvision, Dahua, Imou, Axis e molte altre) e manda gli avvisi sul telefono, con il video. Le password delle telecamere restano su Umbrel, cifrate. |
 
 ## Come si aggiunge a Umbrel
 
@@ -31,6 +31,7 @@ Assistenza: help@cobaltstudio.app.
 Cobalt Studio's community app store for Umbrel. Add
 `https://github.com/claudiosperindio-sketch/umbrel-app-store` in Umbrel → App Store →
 Community App Stores, then install **Attento!**, the home program of the Attento!
-camera alerts service (Italian; needs an Attento! account, free plan available).
+camera alerts service for ONVIF and RTSP cameras (Italian; needs an Attento!
+account, free plan available).
 Once linked, it opens the Centrale: every camera live, the alerts and the alarm,
 from any browser in the house, behind Umbrel's login.

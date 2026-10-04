@@ -5,10 +5,19 @@ storage:
 category: automation
 name: Attento!
 version: "1.1.3"
-tagline: Gli avvisi delle tue telecamere Tapo e Reolink, sul telefono
+tagline: Gli avvisi delle tue telecamere ONVIF e RTSP, sul telefono
 icon: https://attento.online/assets/umbrel/icon.svg
 description: >-
-  Attento! sorveglia le telecamere Tapo e Reolink di casa e ti avvisa sul telefono quando qualcuno o qualcosa si muove dove hai deciso tu: il cancello, il cortile, la stalla. Ogni avviso arriva con il suo video; con Attento! Pro ti dice anche se è una persona, un veicolo o un animale.
+  Attento! sorveglia le telecamere di casa e ti avvisa sul telefono quando qualcuno o qualcosa si muove dove hai deciso tu: il cancello, il cortile, la stalla. Ogni avviso arriva con il suo video; con Attento! Pro ti dice anche se è una persona, un veicolo o un animale.
+
+
+  📷 LE TELECAMERE
+
+
+  Il requisito: telecamere ONVIF o RTSP, cioè che mandano il video sulla rete di casa senza passare dal cloud. Attento! le trova da solo e conosce queste marche: Tapo, VIGI e Mercusys (TP-Link), Reolink, Hikvision, HiLook, Annke, Ezviz, Dahua, Amcrest, Lorex, Imou, Uniview, Hanwha Wisenet, Axis, Bosch, Vivotek, Milesight, Foscam, D-Link, Eufy, ICSee e XMeye, CamHi, Vstarcam, Yoosee, Tuya e Smart Life. Alle altre telecamere ONVIF chiede da solo dov'è il video.
+
+
+  Alcune escono di fabbrica con l'RTSP spento (Reolink, Ezviz, Eufy) o con l'ONVIF spento (Tuya, Smart Life): si accende nella loro app. Non funzionano le telecamere solo cloud (Ring, Nest, Arlo, Blink, Xiaomi) né quelle a batteria che non tengono un video continuo, come le Tapo e le Reolink a batteria.
 
 
   Questa app è il programma di casa di Attento!, lo stesso che gira su Mac e Windows: a sorvegliare è Umbrel, e nessun computer deve restare acceso. Trova da solo le telecamere sulla rete di casa e tiene le loro password su Umbrel, cifrate con la sua chiave: non vanno mai al server di Attento!.
@@ -34,7 +43,7 @@ description: >-
 
   - Per ogni telecamera trovata scrivi nome utente e password, tocca Salva, poi Prova collegamento.
 releaseNotes: >-
-  Telecamere di ogni marca: Attento! è stato provato con 36 telecamere simulate di 27 marche e ora si collega da solo anche a quelle che prima davano errore.
+  Telecamere di ogni marca: Attento! è stato provato con 36 telecamere simulate di 22 marche e ora si collega da solo anche a quelle che prima davano errore.
 
 
   - Dahua, Amcrest e Imou ora usano il flusso leggero: prima prendevano quello pesante, in H.265.
