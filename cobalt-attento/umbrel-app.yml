@@ -4,7 +4,7 @@ storage:
   dataRoot: data
 category: automation
 name: Attento!
-version: "1.1.2"
+version: "1.1.3"
 tagline: Gli avvisi delle tue telecamere Tapo e Reolink, sul telefono
 icon: https://attento.online/assets/umbrel/icon.svg
 description: >-
@@ -34,10 +34,28 @@ description: >-
 
   - Per ogni telecamera trovata scrivi nome utente e password, tocca Salva, poi Prova collegamento.
 releaseNotes: >-
-  Il nome utente che salvi per una telecamera ora resta quello che hai scritto, anche quando è «admin». Prima, se salvavi «admin» dopo un altro nome utente, un minuto dopo Attento! rimetteva quello vecchio e la telecamera lo rifiutava. Dopo l'aggiornamento, se una telecamera non si vede, salva una volta il suo nome utente e la password (l'ingranaggio della Centrale → Telecamere → Salva).
+  Telecamere di ogni marca: Attento! è stato provato con 36 telecamere simulate di 27 marche e ora si collega da solo anche a quelle che prima davano errore.
 
 
-  Dalla 1.1.1: se una telecamera come le Reolink rifiuta per qualche minuto la password che aveva accettato, Attento! aspetta e riprova da solo, e il video riparte appena la telecamera la accetta di nuovo.
+  - Dahua, Amcrest e Imou ora usano il flusso leggero: prima prendevano quello pesante, in H.265.
+
+
+  - Hikvision di fabbrica, TP-Link VIGI, Tuya e le telecamere con un utente ONVIF a parte (Axis, Hikvision): niente più «password non accettata» con la password giusta.
+
+
+  - ICSee e XMeye (Xiongmai) ed Eufy con RTSP/NAS acceso ora funzionano. La password che le ICSee mettono nel percorso del video resta su Umbrel.
+
+
+  - Hikvision con «RTSP Digest Algorithm» su SHA-256: Attento! non prova la password e ti dice dove mettere MD5.
+
+
+  - Una password sbagliata costa al massimo un accesso sbagliato sulla telecamera, così Hikvision e Dahua non si bloccano.
+
+
+  Le Reolink appena installate hanno RTSP e ONVIF spenti: accendili nell'app Reolink (impostazioni della telecamera → Rete → Avanzate → Impostazioni porte).
+
+
+  Dalla 1.1.2: il nome utente che salvi per una telecamera resta quello che hai scritto, anche quando è «admin». Se una telecamera non si vede, salva una volta il suo nome utente e la password (l'ingranaggio della Centrale → Telecamere → Salva).
 developer: Cobalt Studio
 website: https://attento.online
 dependencies: []
