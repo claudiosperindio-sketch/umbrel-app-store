@@ -14,7 +14,7 @@ description: >-
   📷 LE TELECAMERE
 
 
-  Il requisito: telecamere ONVIF o RTSP, cioè che mandano il video sulla rete di casa senza passare dal cloud. Attento! le trova da solo e conosce queste marche: Tapo, VIGI e Mercusys (TP-Link), Reolink, Hikvision, HiLook, Annke, Ezviz, Dahua, Amcrest, Lorex, Imou, Uniview, Hanwha Wisenet, Axis, Bosch, Vivotek, Milesight, Foscam, D-Link, Eufy, ICSee e XMeye, CamHi, Vstarcam, Yoosee, Tuya e Smart Life. Alle altre telecamere ONVIF chiede da solo dov'è il video.
+  Il requisito: telecamere ONVIF o RTSP, cioè che mandano il video sulla rete di casa senza passare dal cloud. Attento! le trova da solo e funziona con queste marche: Tapo, VIGI e Mercusys (TP-Link), Reolink, Hikvision, HiLook, Annke, Ezviz, Dahua, Amcrest, Lorex, Imou, Uniview, Hanwha Wisenet, Axis, Bosch, Vivotek, Milesight, Foscam, D-Link, Eufy, ICSee e XMeye, CamHi, Vstarcam, Yoosee, Tuya e Smart Life. Alle altre telecamere ONVIF chiede da solo dov'è il video.
 
 
   Alcune escono di fabbrica con l'RTSP spento (Reolink, Ezviz, Eufy) o con l'ONVIF spento (Tuya, Smart Life): si accende nella loro app. Non funzionano le telecamere solo cloud (Ring, Nest, Arlo, Blink, Xiaomi) né quelle a batteria che non tengono un video continuo, come le Tapo e le Reolink a batteria.
