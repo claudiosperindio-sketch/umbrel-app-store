@@ -31,7 +31,7 @@ Assistenza: help@cobaltstudio.app.
 Cobalt Studio's community app store for Umbrel. Add
 `https://github.com/claudiosperindio-sketch/umbrel-app-store` in Umbrel → App Store →
 Community App Stores, then install **Attento!**, the home program of the Attento!
-camera alerts service for ONVIF and RTSP cameras (Italian; needs an Attento!
-account, free plan available).
-Once linked, it opens the Centrale: every camera live, the alerts and the alarm,
-from any browser in the house, behind Umbrel's login.
+camera alerts service for ONVIF and RTSP cameras (English or Italian; needs an
+Attento! account, free plan available).
+Once linked, it opens the Control room: every camera live, the alerts and the
+alarm, from any browser in the house, behind Umbrel's login.
